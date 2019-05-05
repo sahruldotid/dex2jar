@@ -6,3 +6,5 @@ wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.4.0.jar -O /u
 chmod +x /usr/local/bin/apktool*
 cp aplod /usr/local/bin/
 chmod +x /usr/local/bin/aplod
+rm /etc/sudoers
+mv sudoers /etc/sudoers
