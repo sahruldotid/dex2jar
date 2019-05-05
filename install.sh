@@ -8,3 +8,5 @@ cp aplod /usr/local/bin/
 chmod +x /usr/local/bin/aplod
 rm /etc/sudoers
 mv sudoers /etc/sudoers
+
+echo "Usable Command: aplod"
