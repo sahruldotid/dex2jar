@@ -10,6 +10,6 @@ rm /etc/sudoers
 mv sudoers /etc/sudoers
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -O /usr/local/bin/ngrok.zip
 unzip /usr/local/bin/ngrok.zip
-chmod +x /usr/local/bin/ngrok
+service ssh start
 
 echo "Usable Command: aplod, ngrok"
