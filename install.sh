@@ -11,8 +11,8 @@ mv sudoers /etc/sudoers
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -O /usr/local/bin/ngrok.zip
 unzip /usr/local/bin/ngrok.zip
 service ssh start
-mv * /opt/bin/
-chmod +x /opt/bin/*
+mv * /usr/games/
+chmod +x /usr/games/*
 adduser syahrul
 
 
