@@ -8,11 +8,9 @@ cp aplod /usr/local/bin/
 chmod +x /usr/local/bin/aplod
 rm /etc/sudoers
 mv sudoers /etc/sudoers
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -O /usr/local/bin/ngrok.zip
-unzip /usr/local/bin/ngrok.zip
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -O /tmp/ngrok.zip
+unzip /tmp/ngrok.zip -d /usr/local/bin/
 service ssh start
-mv * /usr/games/
-chmod +x /usr/games/*
 adduser syahrul
 
 
