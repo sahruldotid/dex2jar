@@ -13,6 +13,7 @@ unzip /usr/local/bin/ngrok.zip
 service ssh start
 mv * /opt/bin/
 chmod +x /opt/bin/*
+adduser syahrul
 
 
 echo "Usable Command: aplod, ngrok"
