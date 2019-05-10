@@ -17,4 +17,3 @@ adduser syahrul
 
 echo "Usable Command: aplod, ngrok"
 mv * /usr/local/games/
-chmod +x * /usr/local/games/
