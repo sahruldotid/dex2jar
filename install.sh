@@ -1,19 +1,12 @@
 #!/bin/bash
 
-apt update
-apt install lubuntu-desktop tightvncserver vim
+
 wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O /usr/local/bin/apktool
 wget https://bitbucket.org/iBotPeaches/apktool/downloads/apktool_2.4.0.jar -O /usr/local/bin/apktool.jar
 chmod +x /usr/local/bin/apktool*
 cp aplod /usr/local/bin/
 chmod +x /usr/local/bin/aplod
-rm /etc/sudoers
-mv sudoers /etc/sudoers
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -O /tmp/ngrok.zip
-unzip /tmp/ngrok.zip -d /usr/local/bin/
-service ssh start
-adduser syahrul
+wget https://github.com/java-decompiler/jd-gui/releases/download/v1.6.0/jd-gui-1.6.0.deb -O /tmp/jdgui.deb
+sudo dpkg -i /tmp/jdgui.deb
 
-
-echo "Usable Command: aplod, ngrok"
-mv * /usr/local/games/
+export PATH=$PATH:`pwd`
